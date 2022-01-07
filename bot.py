@@ -360,7 +360,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(int(Config.UPDATES_CHANNEL), cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/Mo_Tech_Group).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/ULTRONBOTS).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
