@@ -121,7 +121,7 @@ async def main(bot: Client, message: Message):
                 reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton("♻️Open Link♻️", url=share_link)],
                      [InlineKeyboardButton("🔊Channel", url="https://t.me/ULTRONBOTSV"),
-                      InlineKeyboardButton("👨‍💼Group", url="https://t.me/ULTRONBOTSV")]]
+                      InlineKeyboardButton("👨‍💼Group", url="https://t.me/ULTRONBOTS")]]
                 ),
                 disable_web_page_preview=True
             )
